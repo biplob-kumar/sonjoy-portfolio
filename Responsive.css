@@ -12,76 +12,73 @@
       margin-bottom: 1rem;
     }
   }
-
   /*  hero movile css end  */
 
 /*  service section css start */
   @media only screen and (max-width: 480px) {
-
-
-
-.service-section {
-    
-}
 .grid-card{
-
   width: 100%;
-    display: grid;
     grid-template-columns:  1fr;
-     grid-gap: 1rem;
 }
-
 .service-wraper{
-    display: grid;
     grid-template-columns:  1fr;
-    grid-gap: 2rem;
 }
 .service-card {
     text-align: center;
     background-color: #202020;
     width: 100%;
-    height: 5;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px 10px 50px 0px ;
-    transition: .4S;
-}
-.service-card:hover{
-    background-color: #30ab6d;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.card-content i{
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    background-color: #30ab6d;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    text-emphasis: circle;
-    border-radius: 50%;
+    height: 400px;
 }
 .card-content h3{
     font-weight: 600;
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-.card-content p{
-    margin-bottom: 1rem;
-}
-.service-content h6{
-    margin-bottom: 1rem;
-    color: #30ab6d;
-}
 .service-content h1{
-
     margin-bottom: 1rem;
-    font-weight: bold;
     font-size: 2rem;
 }
-.service-content p{
-    margin-top: 1rem;
-    margin-bottom: 5rem;
+  }
+  /*  service section css end  */
+
+  @media only screen and (max-width: 480px) {
+
+
+
+
+    /*  compain css start */
+
+.compain-wraper{
+  display: grid;
+  grid-template-columns: 1fr ;
+
+}
+.compain-content h3{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.compain-content p{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.compain-content a{
+text-decoration: none;
+font-size: 2rem;
+color: #FFAF29;
+display: block;
+}
+
+
+.ppc-overview img{
+max-width: 100%;
+width: 100%;
+height: 100%;
+position: relative;
+left: -10%;
+top: 10%;
 }
 
   }
-  /*  service section css end  */
+
+  /*  compain css  end  */

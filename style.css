@@ -171,8 +171,33 @@ nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
 
 .compain-wraper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.8fr;
 
+}
+
+.compain-content{}
+.compain-content h6{
+    color: #30ab6d;
+}
+.compain-content h3{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.compain-content p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.compain-content a{
+text-decoration: none;
+font-size: 2rem;
+color: #FFAF29;
+display: block;
+}
+
+
+.ppc-overview img{
+    max-width: 100%;
 }
 /*  compain css  end  */
 
