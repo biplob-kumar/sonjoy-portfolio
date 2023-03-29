@@ -11,6 +11,17 @@
     .hero-left-content p{
       margin-bottom: 1rem;
     }
+    /* .hero-right-social{
+      background: url(./img/sonjoy.png) center no-repeat;
+      background-position: center;
+      width: 400px;
+  }
+  .hero-right-social img{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+} */
   }
   /*  hero movile css end  */
 
