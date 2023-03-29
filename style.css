@@ -105,9 +105,6 @@ nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
 
 
 /*  service section css start */
-.service-section {
-    
-}
 .grid-card{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -173,10 +170,9 @@ nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
 .compain-wraper{
     display: grid;
     grid-template-columns: 1fr 1.8fr;
+    grid-gap: 2rem;
 
 }
-
-.compain-content{}
 .compain-content h6{
     color: #30ab6d;
 }
@@ -196,9 +192,49 @@ color: #FFAF29;
 display: block;
 }
 
+ .img-object {
+    background: #424246;
+    height: 535px;
+    width: 650px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 0% 0% 0% 50%;
+ }
+ .img-object2 {
+    background: #424246;
+    height: 535px;
+    width: 650px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 10% 10% 20% 10%;
+ }
+
+ .img-object3 {
+    background: #424246;
+    height: 635px;
+    width: 750px;
+    animation: product-animation 5s linear infinite;
+    border-radius: 0% 0% 0% 50%;
+ }
+
 
 .ppc-overview img{
     max-width: 100%;
+}
+
+.ppc-all-btn a{
+    padding: 15px 30px ;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:1rem;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    transition: .4s;
+}
+.ppc-all-btn a:hover{
+    background-color: #30ab6d;
+
 }
 /*  compain css  end  */
 
