@@ -94,10 +94,11 @@ nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
     background-position: center;
 }
 .hero-right-social img{
-    
     max-width: 100%;
     justify-content: center;
     align-items: center;
+    margin-top: 4.1rem;
+   
 }
 
 /*  hero section css end  */
