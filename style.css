@@ -54,11 +54,12 @@ nav.navbar.navbar-expand-lg.navbar-light.sticky-lg-top {
     color: whitesmoke;
     font-weight: 600;
     display: inline-block;
+    transition: .4s ease-in-out;
    
 }
 
 .social-buton a:hover{
-    background-color: #c28d31;
+    background-color: #30ab6d;
    
 }
 /*  nav css  end  */
