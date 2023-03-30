@@ -221,4 +221,56 @@ margin-bottom: 10px;
     }
 
 
+/* ................................................ */
+
+    /*  contact sectiomn  */
+
+    @media only screen and (max-width: 480px) {
+.contact-wraper{
+  grid-template-columns: 1fr;
+}
+.contact-social{
+  grid-template-columns:  1fr;
+
+}
+.contact-social i{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.contact{
+  width: 100%;
+  border-radius: 0% 10% 00% 10%;
+}
+.contact-content h3{
+  font-size: 2rem;
+}
+.contact-content h5{
+  color:#30ab6d ;
+  margin-right: 1rem;
+}
+.contact-form{
+  width: 100%;
+  height:650px;
+}
+.contact-form h3{
+  font-size: 1rem;
+}
+input{
+  padding: 15px 50px;
+}
+textarea{
+  padding: 10px 30px;
+
+}
+
+
+
+
+
+
+    }
+    /*  contact end   */
+
+
+
  

@@ -338,6 +338,7 @@ grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr ;
 }
 .footer-icon i{
+    cursor: pointer;
     display: inline-block;
     border-radius: 10px;
     color: #FFAF29;
@@ -363,6 +364,86 @@ grid-gap: 1rem;
     font-size: 10px;
 }
 /*  footer sections end */
+
+
+
+
+
+
+
+
+/* ............................ */
+/*  contact css start */
+.contact-wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+}
+
+.contact-social{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.contact-social i{
+     margin-bottom: 2rem;
+    background-color: #30ab6d;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.contact{
+    background-color: #777978;
+    width: 200px;
+    text-align: center;
+    height:250px;
+    border-radius: 0% 10% 00% 10%;
+}
+.contact-content h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.contact-content h5{
+    color:#30ab6d ;
+    margin-right: 1rem;
+}
+.contact-content p{
+    margin-bottom: 1rem;
+}
+.contact-form{
+    border-radius: 10px;
+    padding-left: 2rem;
+    background-color: #777978;
+    width: 100%;
+    height: 650px;
+    
+}
+.contact-form h3{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+input{
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 150px;
+    cursor: pointer;
+
+}
+textarea{
+    padding: 10px 120px;
+    border: none;
+}
+/*  contact css end  */
 
 
 
